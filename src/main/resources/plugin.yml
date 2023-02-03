@@ -1,0 +1,17 @@
+name: WonkyRPGMobs
+version: '${project.version}'
+main: com.wonkglorg.WonkyRPGMobs
+api-version: 1.19
+authors: [ Wonkglorg ]
+description: Plugin from the WonkyRPG plugin series, select custom areas, spawning conditions and create custom mobs with abilities and special loot,
+commands:
+  confirm:
+    description: Confirms selection to create new spawn area
+    usage: "Usage: /<command>"
+    permission: wonk.rpg.selection.confirm
+    permission-message: You do not have permission to use this command!
+  create:
+    description: Allows to create new selection
+    usage: "Usage: /<command>"
+    permission: wonk.rpg.selection.create
+    permission-message: You do not have permission to use this command!
